@@ -1,0 +1,12 @@
+@import './styles/design-tokens.css';
+@import './styles/design-typography.css';
+@import './App.css';
+@import './components/Bill/Bill.css';
+@import './components/AllTips/AllTips.css';
+@import './components/Tip/Tip.css';
+@import './components/FinalBill/FinalBill.css';
+
+#root {
+  display: grid;
+  place-items: center;
+}

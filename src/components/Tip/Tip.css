@@ -1,0 +1,40 @@
+.tip {
+    display: flex;
+    padding: 8px 16px 8px 16px;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--green-900);
+    color: var(--white);
+    width: 147px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.tip:hover {
+    background-color: var(--green-400);
+    color: var(--green-900);
+}
+
+.tip:focus {
+    background-color: var(--green-200);
+    color: var(--green-900);
+}
+
+.tip-selected {
+    background-color: var(--green-200);
+    color: var(--green-900);
+}
+
+@media(min-width:768px) {
+    .tip {
+        width: auto;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .tip-selected {
+        background-color: var(--green-200);
+        color: var(--green-900);
+    }
+}

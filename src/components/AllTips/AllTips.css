@@ -1,0 +1,39 @@
+.tip-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--grey-500);
+}
+
+.all-tip {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.tip-custom {
+    display: flex;
+    padding: 8px 16px 8px 16px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 147px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: var(--white);
+}
+
+@media(min-width:768px) {
+    .all-tip {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .tip-custom {
+        width: auto;
+        height: 48px;
+    }
+}

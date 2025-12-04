@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    font-family: "Space Mono", monospace;
+    margin: 0;
+    background-color: var(--grey-200);
+}
+
+.text-preset-1{
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+.text-preset-2{
+    font-size: 32px;
+    line-height: 47px;
+    letter-spacing: -0.67px;
+    font-weight: 700;
+}
+.text-preset-3{
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+.text-preset-4{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+.text-preset-5{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+.text-preset-6{
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+.text-green-900{
+    color: var(--green-900);
+}
+
+.text-grey-500{
+    color: var(--grey-500);
+}
+.text-grey-550{
+    color: var(--grey-550);
+}
+.text-grey-400{
+    color: var(--grey-400);
+}
+.text-green-400{
+    color: var(--green-400);
+}
+.text-white{
+    color: var(--white);
+}
+.bg-green-200{
+    background-color: var(--green-200);
+}
+.text-orange-400{
+    color: var(--orange-400);
+}
